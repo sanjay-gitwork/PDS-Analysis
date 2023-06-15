@@ -1,0 +1,4721 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40"><head><!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>Dealer wise Transaction Report</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--></head><body><table>
+
+<tbody aria-live="polite" aria-relevant="all"><tr role="row">
+<td colspan="18" align="left" style="font-size:16px; font-weight:bold">
+District : DHANBAD , Block : BALIAPUR</td>
+</tr>
+
+</tbody><thead>
+
+<tr class="thCls tablesorter-headerRow" role="row">
+<th rowspan="2" width="60px" data-column="0" class="tablesorter-header tablesorter-headerUnSorted" tabindex="0" scope="col" role="columnheader" aria-disabled="false" aria-controls="tabledealer" unselectable="on" aria-sort="none" aria-label="S No: No sort applied, activate to apply an ascending sort" style="user-select: none;"><div class="tablesorter-header-inner">S No</div></th>
+<th rowspan="2" width="100px" data-column="1" class="tablesorter-header tablesorter-headerUnSorted" tabindex="0" scope="col" role="columnheader" aria-disabled="false" aria-controls="tabledealer" unselectable="on" aria-sort="none" aria-label="Dealer Name: No sort applied, activate to apply an ascending sort" style="user-select: none;"><div class="tablesorter-header-inner">Dealer Name</div></th>
+<th rowspan="2" data-column="2" class="tablesorter-header tablesorter-headerUnSorted" tabindex="0" scope="col" role="columnheader" aria-disabled="false" aria-controls="tabledealer" unselectable="on" aria-sort="none" aria-label="Dealer Type: No sort applied, activate to apply an ascending sort" style="user-select: none;"><div class="tablesorter-header-inner">Dealer Type</div></th>
+<th rowspan="2" data-column="3" class="tablesorter-header tablesorter-headerUnSorted" tabindex="0" scope="col" role="columnheader" aria-disabled="false" aria-controls="tabledealer" unselectable="on" aria-sort="none" aria-label="Mapped status: No sort applied, activate to apply an ascending sort" style="user-select: none;"><div class="tablesorter-header-inner">Mapped status</div></th>
+<th rowspan="2" data-column="4" class="tablesorter-header tablesorter-headerUnSorted" tabindex="0" scope="col" role="columnheader" aria-disabled="false" aria-controls="tabledealer" unselectable="on" aria-sort="none" aria-label="HHD Sl No: No sort applied, activate to apply an ascending sort" style="user-select: none;"><div class="tablesorter-header-inner">HHD Sl No</div></th>
+<th rowspan="2" data-column="5" class="tablesorter-header tablesorter-headerUnSorted" tabindex="0" scope="col" role="columnheader" aria-disabled="false" aria-controls="tabledealer" unselectable="on" aria-sort="none" aria-label="Transaction Count(By Invoice): No sort applied, activate to apply an ascending sort" style="user-select: none;"><div class="tablesorter-header-inner">Transaction <br>Count<br>(By Invoice)</div></th>
+<th rowspan="2" data-column="6" class="tablesorter-header tablesorter-headerUnSorted" tabindex="0" scope="col" role="columnheader" aria-disabled="false" aria-controls="tabledealer" unselectable="on" aria-sort="none" aria-label="Rc Count: No sort applied, activate to apply an ascending sort" style="user-select: none;"><div class="tablesorter-header-inner">Rc Count</div></th>
+<!-- <th colspan="1">Rationcard</th> -->
+<th colspan="2" data-column="7" class="tablesorter-header tablesorter-headerUnSorted" tabindex="0" scope="col" role="columnheader" aria-disabled="false" aria-controls="tabledealer" unselectable="on" aria-sort="none" aria-label="Rice: No sort applied, activate to apply an ascending sort" style="user-select: none;"><div class="tablesorter-header-inner">Rice</div></th>
+<th colspan="2" data-column="9" class="tablesorter-header tablesorter-headerUnSorted" tabindex="0" scope="col" role="columnheader" aria-disabled="false" aria-controls="tabledealer" unselectable="on" aria-sort="none" aria-label="Wheat: No sort applied, activate to apply an ascending sort" style="user-select: none;"><div class="tablesorter-header-inner">Wheat</div></th>
+<th rowspan="2" data-column="11" class="tablesorter-header tablesorter-headerUnSorted" tabindex="0" scope="col" role="columnheader" aria-disabled="false" aria-controls="tabledealer" unselectable="on" aria-sort="none" aria-label="K.Oil(Ltr): No sort applied, activate to apply an ascending sort" style="user-select: none;"><div class="tablesorter-header-inner">K.Oil<br>(Ltr)</div></th>
+<th rowspan="2" data-column="12" class="tablesorter-header tablesorter-headerUnSorted" tabindex="0" scope="col" role="columnheader" aria-disabled="false" aria-controls="tabledealer" unselectable="on" aria-sort="none" aria-label="Salt(Kg): No sort applied, activate to apply an ascending sort" style="user-select: none;"><div class="tablesorter-header-inner">Salt<br>(Kg)</div></th>
+<th rowspan="2" data-column="13" class="tablesorter-header tablesorter-headerUnSorted" tabindex="0" scope="col" role="columnheader" aria-disabled="false" aria-controls="tabledealer" unselectable="on" aria-sort="none" aria-label="Sugar(Kg): No sort applied, activate to apply an ascending sort" style="user-select: none;"><div class="tablesorter-header-inner">Sugar<br>(Kg)</div></th>
+
+
+<!--th width="8%" rowspan="2">Transaction <br>through OTP</th>
+<th width="8%" rowspan="2">Transaction <br>through UID</th>
+<th width="8%" rowspan="2">Transaction <br>through OTP Percentage(%)</th-->
+
+</tr>
+<tr class="thCls tablesorter-headerRow" role="row">
+	
+<!-- <th>Transaction Count</th> -->
+<!-- <th>Rc Count</th> -->
+<!-- <th>Transaction(%)</th> -->
+
+<th data-column="7" class="tablesorter-header tablesorter-headerUnSorted" tabindex="0" scope="col" role="columnheader" aria-disabled="false" aria-controls="tabledealer" unselectable="on" aria-sort="none" aria-label="Allocated(Kg): No sort applied, activate to apply an ascending sort" style="user-select: none;"><div class="tablesorter-header-inner">Allocated<br>(Kg)</div></th>
+<th data-column="8" class="tablesorter-header tablesorter-headerUnSorted" tabindex="0" scope="col" role="columnheader" aria-disabled="false" aria-controls="tabledealer" unselectable="on" aria-sort="none" aria-label="Distributed(Kg): No sort applied, activate to apply an ascending sort" style="user-select: none;"><div class="tablesorter-header-inner">Distributed<br>(Kg)</div></th>
+<th data-column="9" class="tablesorter-header tablesorter-headerUnSorted" tabindex="0" scope="col" role="columnheader" aria-disabled="false" aria-controls="tabledealer" unselectable="on" aria-sort="none" aria-label="Allocated(Kg): No sort applied, activate to apply an ascending sort" style="user-select: none;"><div class="tablesorter-header-inner">Allocated<br>(Kg)</div></th>
+<th data-column="10" class="tablesorter-header tablesorter-headerUnSorted" tabindex="0" scope="col" role="columnheader" aria-disabled="false" aria-controls="tabledealer" unselectable="on" aria-sort="none" aria-label="Distributed(Kg): No sort applied, activate to apply an ascending sort" style="user-select: none;"><div class="tablesorter-header-inner">Distributed<br>(Kg)</div></th>
+
+</tr>
+<tr role="search" class="tablesorter-filter-row tablesorter-ignoreRow"><td data-column="0"><input type="search" placeholder="" class="tablesorter-filter" data-column="0" aria-label="Filter &quot;S No&quot; column by..." data-lastsearchtime="1686858170855"></td><td data-column="1"><input type="search" placeholder="" class="tablesorter-filter" data-column="1" aria-label="Filter &quot;Dealer Name&quot; column by..." data-lastsearchtime="1686858170855"></td><td data-column="2"><input type="search" placeholder="" class="tablesorter-filter" data-column="2" aria-label="Filter &quot;Dealer Type&quot; column by..." data-lastsearchtime="1686858170855"></td><td data-column="3"><input type="search" placeholder="" class="tablesorter-filter" data-column="3" aria-label="Filter &quot;Mapped status&quot; column by..." data-lastsearchtime="1686858170855"></td><td data-column="4"><input type="search" placeholder="" class="tablesorter-filter" data-column="4" aria-label="Filter &quot;HHD Sl No&quot; column by..." data-lastsearchtime="1686858170855"></td><td data-column="5"><input type="search" placeholder="" class="tablesorter-filter" data-column="5" aria-label="Filter &quot;Transaction Count(By Invoice)&quot; column by..." data-lastsearchtime="1686858170855"></td><td data-column="6"><input type="search" placeholder="" class="tablesorter-filter" data-column="6" aria-label="Filter &quot;Rc Count&quot; column by..." data-lastsearchtime="1686858170855"></td><td data-column="7"><input type="search" placeholder="" class="tablesorter-filter" data-column="7" aria-label="Filter &quot;Allocated(Kg)&quot; column by..." data-lastsearchtime="1686858170855"></td><td data-column="8"><input type="search" placeholder="" class="tablesorter-filter" data-column="8" aria-label="Filter &quot;Distributed(Kg)&quot; column by..." data-lastsearchtime="1686858170855"></td><td data-column="9"><input type="search" placeholder="" class="tablesorter-filter" data-column="9" aria-label="Filter &quot;Allocated(Kg)&quot; column by..." data-lastsearchtime="1686858170855"></td><td data-column="10"><input type="search" placeholder="" class="tablesorter-filter" data-column="10" aria-label="Filter &quot;Distributed(Kg)&quot; column by..." data-lastsearchtime="1686858170855"></td><td data-column="11"><input type="search" placeholder="" class="tablesorter-filter" data-column="11" aria-label="Filter &quot;K.Oil(Ltr)&quot; column by..." data-lastsearchtime="1686858170855"></td><td data-column="12"><input type="search" placeholder="" class="tablesorter-filter" data-column="12" aria-label="Filter &quot;Salt(Kg)&quot; column by..." data-lastsearchtime="1686858170855"></td><td data-column="13"><input type="search" placeholder="" class="tablesorter-filter" data-column="13" aria-label="Filter &quot;Sugar(Kg)&quot; column by..." data-lastsearchtime="1686858170855"></td></tr></thead>
+<tbody aria-live="polite" aria-relevant="all">
+
+<tr role="row">
+
+<td align="center" width="60px">
+1&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGZjMzY5YWMtZTViMC00NzliLThmNmEtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" class="link">AMLESHAWAR MAHATO</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167836</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGZjMzY5YWMtZTViMC00NzliLThmNmEtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">576</a></span>
+</td>
+
+
+
+<!-- <td align="center">576</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">9704</td>
+<td align="center">9404.000</td>
+<td align="center">2426</td>
+<td align="center">2351.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+2&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+ANJU DEVI</b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1708407109</td>
+
+
+<td align="center">
+<font color="red">
+0</font>
+</td>
+
+
+
+<!-- <td align="center">0</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">0%</td> -->
+
+<td align="center">812</td>
+<td align="center">0.000</td>
+<td align="center">203</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+3&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGYwMjNmMzYtMjE3Yy00Y2Q1LWFkYTAtMGUzODBhODYwOTJk/NQ%3D%3D/MTA%3D" class="link">ASHOK  KUMAR YADAV</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167837</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGYwMjNmMzYtMjE3Yy00Y2Q1LWFkYTAtMGUzODBhODYwOTJk/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">401</a></span>
+</td>
+
+
+
+<!-- <td align="center">401</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">8148</td>
+<td align="center">7520.000</td>
+<td align="center">2037</td>
+<td align="center">1880.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+4&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NWVmOWUwZTItYTYxOC00YWMwLTk1ZWEtMjc5NDBhNWNjMjcy/NQ%3D%3D/MTA%3D" class="link">ASHOK KUMAR SAW</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608168466</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NWVmOWUwZTItYTYxOC00YWMwLTk1ZWEtMjc5NDBhNWNjMjcy/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">259</a></span>
+</td>
+
+
+
+<!-- <td align="center">258</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">4552</td>
+<td align="center">4524.000</td>
+<td align="center">1138</td>
+<td align="center">1130.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+5&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NWM2ZDNiYTEtMDcxMC00NzM4LTg1OGEtNDQxMTBhNWNjMjcy/NQ%3D%3D/MTA%3D" class="link">ASIFA MAA LAXMI SHG</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1708408040</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NWM2ZDNiYTEtMDcxMC00NzM4LTg1OGEtNDQxMTBhNWNjMjcy/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">55</a></span>
+</td>
+
+
+
+<!-- <td align="center">55</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">1132</td>
+<td align="center">1076.000</td>
+<td align="center">283</td>
+<td align="center">269.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+6&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGZjMzQ4MzgtNzMwYy00ZDRhLTgwMDUtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" class="link">BABITA KUMARI</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167838</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGZjMzQ4MzgtNzMwYy00ZDRhLTgwMDUtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">454</a></span>
+</td>
+
+
+
+<!-- <td align="center">453</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">6940</td>
+<td align="center">7320.000</td>
+<td align="center">1735</td>
+<td align="center">1830.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+7&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NWE2OWMzNzctNzIzMC00MGE2LWE1MDgtNDNmNjBhNWNjMjcy/NQ%3D%3D/MTA%3D" class="link">BHOGINDRA JHA</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1708407283</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NWE2OWMzNzctNzIzMC00MGE2LWE1MDgtNDNmNjBhNWNjMjcy/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">108</a></span>
+</td>
+
+
+
+<!-- <td align="center">108</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">1724</td>
+<td align="center">1740.000</td>
+<td align="center">431</td>
+<td align="center">435.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+8&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGZjMzRhOWMtY2MwYy00ZjA0LTkyYTgtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" class="link">BIBHUTI BHUSHAN SINGH</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167839</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGZjMzRhOWMtY2MwYy00ZjA0LTkyYTgtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">540</a></span>
+</td>
+
+
+
+<!-- <td align="center">539</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">10744</td>
+<td align="center">9880.000</td>
+<td align="center">2686</td>
+<td align="center">2473.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+9&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGZjMzUwNzctM2NhNC00NThlLThkZTQtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" class="link">BIDYA SINGH</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167840</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGZjMzUwNzctM2NhNC00NThlLThkZTQtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">745</a></span>
+</td>
+
+
+
+<!-- <td align="center">745</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">15504</td>
+<td align="center">14644.000</td>
+<td align="center">3876</td>
+<td align="center">3661.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+10&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NWEwNTViODctZDFkNC00MDcxLTg2MjItNDAyNDBhNWNjMjcy/NQ%3D%3D/MTA%3D" class="link">BUDHAN SAW</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1708407134</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NWEwNTViODctZDFkNC00MDcxLTg2MjItNDAyNDBhNWNjMjcy/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">134</a></span>
+</td>
+
+
+
+<!-- <td align="center">133</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">2168</td>
+<td align="center">2059.980</td>
+<td align="center">542</td>
+<td align="center">514.990</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+11&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGYwMjQwZGUtZmU2NC00MzVjLWEyZmItMGUzODBhODYwOTJk/NQ%3D%3D/MTA%3D" class="link">BUDHURAY MANJHI</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167841</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGYwMjQwZGUtZmU2NC00MzVjLWEyZmItMGUzODBhODYwOTJk/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">168</a></span>
+</td>
+
+
+
+<!-- <td align="center">168</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">2828</td>
+<td align="center">2644.000</td>
+<td align="center">707</td>
+<td align="center">661.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+12&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NWFlMDJlOWEtMTNkMC00MmY4LTlmMjMtNDExZjBhNWNjMjcy/NQ%3D%3D/MTA%3D" class="link">CHANDRA BHUSHAN LAL SAW</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1708407110</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NWFlMDJlOWEtMTNkMC00MmY4LTlmMjMtNDExZjBhNWNjMjcy/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">47</a></span>
+</td>
+
+
+
+<!-- <td align="center">47</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">1076</td>
+<td align="center">748.000</td>
+<td align="center">269</td>
+<td align="center">182.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+13&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGYwMzU1ZDQtZTE4NC00OTc3LTk4NWQtMTAzNDBhODYwOTJk/NQ%3D%3D/MTA%3D" class="link">CHANDRA MOHAN MAHATO</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167842</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGYwMzU1ZDQtZTE4NC00OTc3LTk4NWQtMTAzNDBhODYwOTJk/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">545</a></span>
+</td>
+
+
+
+<!-- <td align="center">540</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">10264</td>
+<td align="center">9680.000</td>
+<td align="center">2566</td>
+<td align="center">2414.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+14&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NTdhMWMyNjAtNzI1Yy00ZTliLTg0M2ItNDgxZmMwYTgwMTI5/NQ%3D%3D/MTA%3D" class="link">Chhama Devi</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167843</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NTdhMWMyNjAtNzI1Yy00ZTliLTg0M2ItNDgxZmMwYTgwMTI5/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">161</a></span>
+</td>
+
+
+
+<!-- <td align="center">161</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">3068</td>
+<td align="center">2920.000</td>
+<td align="center">767</td>
+<td align="center">730.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+15&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGZjMzVlNGMtYmU1OC00NTRiLWJiNDUtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" class="link">CHUNKI DEVI</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167844</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGZjMzVlNGMtYmU1OC00NTRiLWJiNDUtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">173</a></span>
+</td>
+
+
+
+<!-- <td align="center">173</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">3092</td>
+<td align="center">3040.000</td>
+<td align="center">773</td>
+<td align="center">760.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+16&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NWI5OGQzMjgtYmFhMC00M2UxLTgyODQtNGViYjBhNWNjMjcy/NQ%3D%3D/MTA%3D" class="link">DAYAMAYI MAHILA SHG </a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1708407217</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NWI5OGQzMjgtYmFhMC00M2UxLTgyODQtNGViYjBhNWNjMjcy/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">204</a></span>
+</td>
+
+
+
+<!-- <td align="center">204</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">3552</td>
+<td align="center">3428.000</td>
+<td align="center">888</td>
+<td align="center">857.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+17&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NWFlMTdjOGUtMDViNC00MDJkLWE0ZTItNGQ5MDBhNWNjMjcy/NQ%3D%3D/MTA%3D" class="link">DEVANTI DEVI</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1708407160</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NWFlMTdjOGUtMDViNC00MDJkLWE0ZTItNGQ5MDBhNWNjMjcy/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">296</a></span>
+</td>
+
+
+
+<!-- <td align="center">296</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">5192</td>
+<td align="center">5364.000</td>
+<td align="center">1298</td>
+<td align="center">1341.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+18&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGYwMzVjNDYtZmExYy00ZWM1LWFhODYtMTAzNDBhODYwOTJk/NQ%3D%3D/MTA%3D" class="link">DEVENDRA NATH MARANDI</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167845</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGYwMzVjNDYtZmExYy00ZWM1LWFhODYtMTAzNDBhODYwOTJk/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">303</a></span>
+</td>
+
+
+
+<!-- <td align="center">303</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">6980</td>
+<td align="center">6064.000</td>
+<td align="center">1745</td>
+<td align="center">1516.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+19&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NWEwNTVhODAtNjExYy00NDk2LThjZjgtNDI5YjBhNWNjMjcy/NQ%3D%3D/MTA%3D" class="link">DWARIKA NATH PRASAD</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1708407133</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NWEwNTVhODAtNjExYy00NDk2LThjZjgtNDI5YjBhNWNjMjcy/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">194</a></span>
+</td>
+
+
+
+<!-- <td align="center">193</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">4084</td>
+<td align="center">3864.000</td>
+<td align="center">1021</td>
+<td align="center">966.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+20&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGYwMzUxOTktOTBiMC00ZDBkLTljN2MtMTAzNDBhODYwOTJk/NQ%3D%3D/MTA%3D" class="link">GANDHARI MAHATO</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167847</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGYwMzUxOTktOTBiMC00ZDBkLTljN2MtMTAzNDBhODYwOTJk/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">167</a></span>
+</td>
+
+
+
+<!-- <td align="center">167</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">3456</td>
+<td align="center">3184.000</td>
+<td align="center">864</td>
+<td align="center">796.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+21&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGZjMzUwZmYtMWY5MC00ZTI1LTgxZGUtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" class="link">GANESH CHANDRA MAHTO</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167848</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGZjMzUwZmYtMWY5MC00ZTI1LTgxZGUtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">827</a></span>
+</td>
+
+
+
+<!-- <td align="center">827</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">18292</td>
+<td align="center">17020.000</td>
+<td align="center">4573</td>
+<td align="center">4243.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+22&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGZjMzYwNWEtMzg1Yy00OWQ3LTljYmUtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" class="link">GANU PD RAJWAR</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167849</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGZjMzYwNWEtMzg1Yy00OWQ3LTljYmUtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">248</a></span>
+</td>
+
+
+
+<!-- <td align="center">248</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">5256</td>
+<td align="center">4792.000</td>
+<td align="center">1314</td>
+<td align="center">1198.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+23&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGZjMzVkNTEtMTdiYy00ZDBmLWE1NGMtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" class="link">GITA DEVI</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167850</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGZjMzVkNTEtMTdiYy00ZDBmLWE1NGMtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">242</a></span>
+</td>
+
+
+
+<!-- <td align="center">241</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">5068</td>
+<td align="center">4384.000</td>
+<td align="center">1267</td>
+<td align="center">1091.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+24&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NWI3YzA3OWItNTMwYy00NjM5LTgyODgtNDEwOTBhNWNjMjcy/NQ%3D%3D/MTA%3D" class="link">GRAM VIKASH SHG </a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1708407200</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NWI3YzA3OWItNTMwYy00NjM5LTgyODgtNDEwOTBhNWNjMjcy/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">337</a></span>
+</td>
+
+
+
+<!-- <td align="center">337</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">6680</td>
+<td align="center">6624.000</td>
+<td align="center">1670</td>
+<td align="center">1656.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+25&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGZjMzYzZTYtMDQyMC00NDgzLWE1MDMtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" class="link">HAKIMMUDDIN ANSARI</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167852</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGZjMzYzZTYtMDQyMC00NDgzLWE1MDMtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">488</a></span>
+</td>
+
+
+
+<!-- <td align="center">488</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">11488</td>
+<td align="center">10128.000</td>
+<td align="center">2872</td>
+<td align="center">2532.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+26&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGYwMzU2ZDUtYzU1NC00ZTg1LTgwYzEtMTAzNDBhODYwOTJk/NQ%3D%3D/MTA%3D" class="link">HARIPAD MANDAL</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167853</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGYwMzU2ZDUtYzU1NC00ZTg1LTgwYzEtMTAzNDBhODYwOTJk/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">436</a></span>
+</td>
+
+
+
+<!-- <td align="center">436</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">10732</td>
+<td align="center">8596.000</td>
+<td align="center">2683</td>
+<td align="center">2149.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+27&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGYwMzU5MTEtZDdjNC00YWJjLTkxOWUtMTAzNDBhODYwOTJk/NQ%3D%3D/MTA%3D" class="link">HOPAN MANGHI</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167854</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGYwMzU5MTEtZDdjNC00YWJjLTkxOWUtMTAzNDBhODYwOTJk/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">92</a></span>
+</td>
+
+
+
+<!-- <td align="center">92</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">1844</td>
+<td align="center">1516.000</td>
+<td align="center">461</td>
+<td align="center">379.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+28&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGYwMjFkZDEtZTYzMC00MDg3LTllMGMtMGUzODBhODYwOTJk/NQ%3D%3D/MTA%3D" class="link">JAGARNATH MAHATO</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167855</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGYwMjFkZDEtZTYzMC00MDg3LTllMGMtMGUzODBhODYwOTJk/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">164</a></span>
+</td>
+
+
+
+<!-- <td align="center">164</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">3208</td>
+<td align="center">2948.000</td>
+<td align="center">802</td>
+<td align="center">737.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+29&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NWJmMjlhYTAtOTFiMC00ZjhmLTkzNTQtNGVhZDBhNWNjMjcy/NQ%3D%3D/MTA%3D" class="link">JAHER ERA SHG</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1708407228</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NWJmMjlhYTAtOTFiMC00ZjhmLTkzNTQtNGVhZDBhNWNjMjcy/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">106</a></span>
+</td>
+
+
+
+<!-- <td align="center">106</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">1948</td>
+<td align="center">1892.000</td>
+<td align="center">487</td>
+<td align="center">473.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+30&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NWJhMWZhNzItZGIwMC00YmE5LWE4NDAtNDU2NDBhNWNjMjcy/NQ%3D%3D/MTA%3D" class="link">JAI AMBE SHG</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1708407218</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NWJhMWZhNzItZGIwMC00YmE5LWE4NDAtNDU2NDBhNWNjMjcy/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">93</a></span>
+</td>
+
+
+
+<!-- <td align="center">93</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">1668</td>
+<td align="center">1228.000</td>
+<td align="center">417</td>
+<td align="center">330.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+31&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NWM4MzdmNDAtMmZmYy00ZTM3LWI4ZjItNGFiYzBhNWNjMjcy/NQ%3D%3D/MTA%3D" class="link">JAI BAJRANGBALI SHG</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1708408041</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NWM4MzdmNDAtMmZmYy00ZTM3LWI4ZjItNGFiYzBhNWNjMjcy/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">76</a></span>
+</td>
+
+
+
+<!-- <td align="center">76</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">1360</td>
+<td align="center">1280.000</td>
+<td align="center">340</td>
+<td align="center">320.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+32&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGZjMzRjYTgtMmMyNC00NDllLTkyZGYtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" class="link">JAI JHARKHAND SHG KALPANA DEVI</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167856</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGZjMzRjYTgtMmMyNC00NDllLTkyZGYtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">58</a></span>
+</td>
+
+
+
+<!-- <td align="center">58</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">984</td>
+<td align="center">984.000</td>
+<td align="center">246</td>
+<td align="center">246.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+33&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NTViMWQ1YTQtODM4MC00YTFlLTgyODctNDk4MmMwYTgwMTI5/NQ%3D%3D/MTA%3D" class="link">Jai Maa Durga Swayam Sahayata Samuh Yamuna Devi</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167857</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NTViMWQ1YTQtODM4MC00YTFlLTgyODctNDk4MmMwYTgwMTI5/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">384</a></span>
+</td>
+
+
+
+<!-- <td align="center">384</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">7020</td>
+<td align="center">6988.000</td>
+<td align="center">1755</td>
+<td align="center">1747.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+34&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NWQxMGI5MGQtYjliOC00NDExLWFhNDMtNDE5NTBhNWNjMjcy/NQ%3D%3D/MTA%3D" class="link">JAI MAA SARASWATI SHG</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1708406932</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NWQxMGI5MGQtYjliOC00NDExLWFhNDMtNDE5NTBhNWNjMjcy/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">128</a></span>
+</td>
+
+
+
+<!-- <td align="center">128</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">2152</td>
+<td align="center">2084.000</td>
+<td align="center">538</td>
+<td align="center">521.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+35&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGZjMzRiNTYtYzE3Yy00YjY0LTlhNmYtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" class="link">JANANI SWAM SAHAYATA SAMUHA SMT BELI DEVI</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167846</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGZjMzRiNTYtYzE3Yy00YjY0LTlhNmYtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">232</a></span>
+</td>
+
+
+
+<!-- <td align="center">232</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">4688</td>
+<td align="center">4228.000</td>
+<td align="center">1172</td>
+<td align="center">1062.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+36&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGZjMzY0NjktOTViMC00YzA4LTk3YWQtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" class="link">JEEVAN JYOTI SHG USHA MANDAL</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167858</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGZjMzY0NjktOTViMC00YzA4LTk3YWQtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">192</a></span>
+</td>
+
+
+
+<!-- <td align="center">192</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">5392</td>
+<td align="center">3468.000</td>
+<td align="center">1348</td>
+<td align="center">867.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+37&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGZjMzRkZGMtYjYxOC00MjAwLThhMTktMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" class="link">JHARI LAL MAHATO</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167859</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGZjMzRkZGMtYjYxOC00MjAwLThhMTktMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">362</a></span>
+</td>
+
+
+
+<!-- <td align="center">361</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">7980</td>
+<td align="center">7428.000</td>
+<td align="center">1995</td>
+<td align="center">1848.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+38&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGZjMzRmMTctYTcyNC00ZjY5LWJmYjAtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" class="link">KALU RAM PRAMANIK</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167860</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGZjMzRmMTctYTcyNC00ZjY5LWJmYjAtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">317</a></span>
+</td>
+
+
+
+<!-- <td align="center">317</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">6748</td>
+<td align="center">6256.000</td>
+<td align="center">1687</td>
+<td align="center">1551.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+39&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGYwMzYwNWMtYTIzYy00YmU3LWFlYTEtMTAzNDBhODYwOTJk/NQ%3D%3D/MTA%3D" class="link">KAMLI DEVI </a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167862</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGYwMzYwNWMtYTIzYy00YmU3LWFlYTEtMTAzNDBhODYwOTJk/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">89</a></span>
+</td>
+
+
+
+<!-- <td align="center">89</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">1956</td>
+<td align="center">1840.000</td>
+<td align="center">489</td>
+<td align="center">460.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+40&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGZjMzY4Y2YtNzA0OC00NzA5LWEyY2EtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" class="link">KAMLI DEVI Purnadih</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167861</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGZjMzY4Y2YtNzA0OC00NzA5LWEyY2EtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">262</a></span>
+</td>
+
+
+
+<!-- <td align="center">248</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">4460</td>
+<td align="center">4064.000</td>
+<td align="center">1115</td>
+<td align="center">1016.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+41&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGZjMzRjMmYtM2Q3Yy00ODNlLThhZGMtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" class="link">KANTI DEVI</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167863</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGZjMzRjMmYtM2Q3Yy00ODNlLThhZGMtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">270</a></span>
+</td>
+
+
+
+<!-- <td align="center">270</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">6040</td>
+<td align="center">5240.000</td>
+<td align="center">1510</td>
+<td align="center">1310.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+42&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NWE4ZDc4YjAtMTJjYy00ZDY4LTg0YWItNGMwMzBhNWNjMjcy/NQ%3D%3D/MTA%3D" class="link">KEDAR SAW</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1708407282</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NWE4ZDc4YjAtMTJjYy00ZDY4LTg0YWItNGMwMzBhNWNjMjcy/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">159</a></span>
+</td>
+
+
+
+<!-- <td align="center">159</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">2544</td>
+<td align="center">2352.000</td>
+<td align="center">636</td>
+<td align="center">588.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+43&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGYwMzRjYmMtZGZjNC00NmQ2LThlZjEtMTAzNDBhODYwOTJk/NQ%3D%3D/MTA%3D" class="link">KIRAN KISHAR MAHATO</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167864</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGYwMzRjYmMtZGZjNC00NmQ2LThlZjEtMTAzNDBhODYwOTJk/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">331</a></span>
+</td>
+
+
+
+<!-- <td align="center">330</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">6020</td>
+<td align="center">5588.000</td>
+<td align="center">1505</td>
+<td align="center">1397.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+44&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGZjMzY2NmItNTBmNC00MzNhLWExYTctMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" class="link">LAGAN GORAI</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167865</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGZjMzY2NmItNTBmNC00MzNhLWExYTctMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">559</a></span>
+</td>
+
+
+
+<!-- <td align="center">557</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">11716</td>
+<td align="center">11408.000</td>
+<td align="center">2929</td>
+<td align="center">2852.000</td>
+<td align="center">1.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+45&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NTZhOWY0NDItNjM2Yy00ZTdjLWJkOTUtNGJiMWMwYTgwMTI5/NQ%3D%3D/MTA%3D" class="link">Lalit Kumar Mahato</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167866</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NTZhOWY0NDItNjM2Yy00ZTdjLWJkOTUtNGJiMWMwYTgwMTI5/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">275</a></span>
+</td>
+
+
+
+<!-- <td align="center">275</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">6012</td>
+<td align="center">5172.000</td>
+<td align="center">1503</td>
+<td align="center">1293.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+46&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NWEzMjQ4ZGEtZmYwYy00MWI2LThmOTEtNGE1YTBhNWNjMjcy/NQ%3D%3D/MTA%3D" class="link">LILMUNI DEVI</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1708407281</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NWEzMjQ4ZGEtZmYwYy00MWI2LThmOTEtNGE1YTBhNWNjMjcy/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">75</a></span>
+</td>
+
+
+
+<!-- <td align="center">75</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">1404</td>
+<td align="center">1312.000</td>
+<td align="center">351</td>
+<td align="center">328.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+47&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGZjMzVhZTktNGFhMC00YzQ4LTkwNTQtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" class="link">MAA DURGA SHG MANJU DEVI</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167867</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGZjMzVhZTktNGFhMC00YzQ4LTkwNTQtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">190</a></span>
+</td>
+
+
+
+<!-- <td align="center">190</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">3428</td>
+<td align="center">3344.000</td>
+<td align="center">857</td>
+<td align="center">836.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+48&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NWJmMjliZjQtOWQ5MC00NmMyLWI3MzctNGI4ZDBhNWNjMjcy/NQ%3D%3D/MTA%3D" class="link">MAA DURGA SHG MANJU DEVI</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1708407231</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NWJmMjliZjQtOWQ5MC00NmMyLWI3MzctNGI4ZDBhNWNjMjcy/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">98</a></span>
+</td>
+
+
+
+<!-- <td align="center">98</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">1944</td>
+<td align="center">1736.000</td>
+<td align="center">486</td>
+<td align="center">433.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+49&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NWIyMGRkOGYtMzI2NC00MTQ3LTg0MGEtNDMyYTBhNWNjMjcy/NQ%3D%3D/MTA%3D" class="link">MAA MANSA SWAYAM SAHAYATA SAMOOH</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1708407197</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NWIyMGRkOGYtMzI2NC00MTQ3LTg0MGEtNDMyYTBhNWNjMjcy/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">93</a></span>
+</td>
+
+
+
+<!-- <td align="center">93</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">1884</td>
+<td align="center">1796.000</td>
+<td align="center">471</td>
+<td align="center">449.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+50&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NTVjNWEyOWMtY2E2NC00NDhiLTljZDQtNDk0MmMwYTgwMTI5/NQ%3D%3D/MTA%3D" class="link">MAA SANTOSHI SWAYAM SAHAYATA SAMUH ANJANI DEVI</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167868</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NTVjNWEyOWMtY2E2NC00NDhiLTljZDQtNDk0MmMwYTgwMTI5/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">196</a></span>
+</td>
+
+
+
+<!-- <td align="center">196</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">3584</td>
+<td align="center">3296.000</td>
+<td align="center">896</td>
+<td align="center">824.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+51&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NWM0YWFlYjgtNmQ5MC00NjYyLThkZjMtNDBjMDBhNWNjMjcy/NQ%3D%3D/MTA%3D" class="link">MAHILA KALYAN SHG NIPANIYA</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1708407240</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NWM0YWFlYjgtNmQ5MC00NjYyLThkZjMtNDBjMDBhNWNjMjcy/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">93</a></span>
+</td>
+
+
+
+<!-- <td align="center">93</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">1584</td>
+<td align="center">1548.000</td>
+<td align="center">396</td>
+<td align="center">386.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+52&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGZjMzU3OWYtNWIxOC00ZmIwLWI1MDEtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" class="link">MALATI DEVI</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167869</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGZjMzU3OWYtNWIxOC00ZmIwLWI1MDEtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">89</a></span>
+</td>
+
+
+
+<!-- <td align="center">89</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">1776</td>
+<td align="center">1692.000</td>
+<td align="center">444</td>
+<td align="center">423.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+53&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGZjMzYxZWItNjYwOC00NzhhLTlkMDctMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" class="link">MALTI DEVI</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167870</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGZjMzYxZWItNjYwOC00NzhhLTlkMDctMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">194</a></span>
+</td>
+
+
+
+<!-- <td align="center">193</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">4312</td>
+<td align="center">3751.980</td>
+<td align="center">1078</td>
+<td align="center">945.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+54&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NWEzMjQ2ZDAtMDFlNC00MzAzLWI4YTUtNDEyNDBhNWNjMjcy/NQ%3D%3D/MTA%3D" class="link">MANU SAW</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1708407486</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NWEzMjQ2ZDAtMDFlNC00MzAzLWI4YTUtNDEyNDBhNWNjMjcy/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">150</a></span>
+</td>
+
+
+
+<!-- <td align="center">146</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">2576</td>
+<td align="center">2468.000</td>
+<td align="center">644</td>
+<td align="center">617.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+55&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NWVlMGFkZWItNzE3Yy00YzU4LWE3OTctNjhiNzBhNWNjMjcx/NQ%3D%3D/MTA%3D" class="link">MD AZIZ ANSARI</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167874</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NWVlMGFkZWItNzE3Yy00YzU4LWE3OTctNjhiNzBhNWNjMjcx/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">645</a></span>
+</td>
+
+
+
+<!-- <td align="center">645</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">14616</td>
+<td align="center">13996.000</td>
+<td align="center">3654</td>
+<td align="center">3499.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+56&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGZjMzVlMjgtNzFmMC00YjU4LWI4MzAtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" class="link">MEGH NATH MAHATO</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167871</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGZjMzVlMjgtNzFmMC00YjU4LWI4MzAtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">173</a></span>
+</td>
+
+
+
+<!-- <td align="center">173</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">3320</td>
+<td align="center">3264.000</td>
+<td align="center">830</td>
+<td align="center">811.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+57&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGYwMjQ0NDMtOWI2OC00ZWJhLWI5ZjMtMGUzODBhODYwOTJk/NQ%3D%3D/MTA%3D" class="link">MEGHU MAHATO</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167872</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGYwMjQ0NDMtOWI2OC00ZWJhLWI5ZjMtMGUzODBhODYwOTJk/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">399</a></span>
+</td>
+
+
+
+<!-- <td align="center">399</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">7792</td>
+<td align="center">7580.000</td>
+<td align="center">1948</td>
+<td align="center">1895.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+58&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGZjMzQ1ZDItZjVjYy00ZmI5LWFkOWYtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" class="link">MIHIR BAURI</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167873</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGZjMzQ1ZDItZjVjYy00ZmI5LWFkOWYtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">260</a></span>
+</td>
+
+
+
+<!-- <td align="center">260</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">6580</td>
+<td align="center">5080.000</td>
+<td align="center">1645</td>
+<td align="center">1270.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+59&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGZjMzU5NmMtMGIxNC00MmUyLTg5NjQtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" class="link">MOTHER TERESA SHG MINA DEVI</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167875</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGZjMzU5NmMtMGIxNC00MmUyLTg5NjQtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">218</a></span>
+</td>
+
+
+
+<!-- <td align="center">218</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">4132</td>
+<td align="center">4444.000</td>
+<td align="center">1033</td>
+<td align="center">1111.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+60&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGZjMzViNTgtMWNjNC00YWZjLWE2YzQtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" class="link">MOTILAL BOURI</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167876</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGZjMzViNTgtMWNjNC00YWZjLWE2YzQtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">316</a></span>
+</td>
+
+
+
+<!-- <td align="center">316</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">7044</td>
+<td align="center">5900.000</td>
+<td align="center">1761</td>
+<td align="center">1475.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+61&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NWM4MzdkYTgtNzE3MC00NWI5LTg0ZWMtNGRjOTBhNWNjMjcy/NQ%3D%3D/MTA%3D" class="link">NAYI DISHA MAHILA SHG</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1708408042</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NWM4MzdkYTgtNzE3MC00NWI5LTg0ZWMtNGRjOTBhNWNjMjcy/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">126</a></span>
+</td>
+
+
+
+<!-- <td align="center">126</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">2284</td>
+<td align="center">2320.000</td>
+<td align="center">571</td>
+<td align="center">580.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+62&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGZjMzRkMzAtNDc4Yy00ZWEwLWE1M2UtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" class="link">NIL KAMAL SHG DUKHI DEVI</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167877</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGZjMzRkMzAtNDc4Yy00ZWEwLWE1M2UtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">203</a></span>
+</td>
+
+
+
+<!-- <td align="center">203</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">4208</td>
+<td align="center">4000.000</td>
+<td align="center">1052</td>
+<td align="center">1000.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+63&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGZjMzYzNDAtODgxNC00NTU2LTljY2MtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" class="link">NITU DEVI</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167879</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGZjMzYzNDAtODgxNC00NTU2LTljY2MtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">181</a></span>
+</td>
+
+
+
+<!-- <td align="center">181</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">4012</td>
+<td align="center">3776.000</td>
+<td align="center">1003</td>
+<td align="center">944.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+64&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGZjMzQ3MDAtNGExYy00MzkwLTk1ZjAtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" class="link">NUNIBALA DEVI Tag with Maa Santoshi SHG </a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167880</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGZjMzQ3MDAtNGExYy00MzkwLTk1ZjAtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">177</a></span>
+</td>
+
+
+
+<!-- <td align="center">177</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">3380</td>
+<td align="center">3332.000</td>
+<td align="center">845</td>
+<td align="center">833.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+65&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGZjMzVmMmMtMWNlOC00NjYxLThkOTktMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" class="link">OM PRAKASH MAHTO</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167881</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGZjMzVmMmMtMWNlOC00NjYxLThkOTktMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">462</a></span>
+</td>
+
+
+
+<!-- <td align="center">462</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">10488</td>
+<td align="center">9308.000</td>
+<td align="center">2622</td>
+<td align="center">2327.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+66&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NjA0YjRlYTYtMmRjOC00NDc0LWEyNDItNDQxMzBhNWNjMjcy/NQ%3D%3D/MTA%3D" class="link">PADMAWATI TUDU</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167896</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NjA0YjRlYTYtMmRjOC00NDc0LWEyNDItNDQxMzBhNWNjMjcy/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">263</a></span>
+</td>
+
+
+
+<!-- <td align="center">263</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">5336</td>
+<td align="center">5152.000</td>
+<td align="center">1334</td>
+<td align="center">1288.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+67&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGYwMjQ1MDgtZTRkYy00MDNkLWIyNzctMGUzODBhODYwOTJk/NQ%3D%3D/MTA%3D" class="link">PRAHLAD MAHATO</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167883</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGYwMjQ1MDgtZTRkYy00MDNkLWIyNzctMGUzODBhODYwOTJk/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">228</a></span>
+</td>
+
+
+
+<!-- <td align="center">228</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">4460</td>
+<td align="center">4328.000</td>
+<td align="center">1115</td>
+<td align="center">1082.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+68&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NWEzMjQ1OTktNzg2NC00YWE5LWFjZDItNDE1YTBhNWNjMjcy/NQ%3D%3D/MTA%3D" class="link">PRAKASH PRASAD</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1708407285</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NWEzMjQ1OTktNzg2NC00YWE5LWFjZDItNDE1YTBhNWNjMjcy/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">228</a></span>
+</td>
+
+
+
+<!-- <td align="center">228</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">4328</td>
+<td align="center">4284.000</td>
+<td align="center">1082</td>
+<td align="center">1071.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+69&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NWViZjlkZjQtYTQ4NC00MDUxLWEwZDctMTg3ODBhNWNjMjcx/NQ%3D%3D/MTA%3D" class="link">Rajendra Prasad Chourasia</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1708409891</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NWViZjlkZjQtYTQ4NC00MDUxLWEwZDctMTg3ODBhNWNjMjcx/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">70</a></span>
+</td>
+
+
+
+<!-- <td align="center">70</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">1100</td>
+<td align="center">1100.000</td>
+<td align="center">275</td>
+<td align="center">275.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+70&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NWEzMjQ4MDgtMGIzOC00MDdkLWI0OGItNDU5ZTBhNWNjMjcy/NQ%3D%3D/MTA%3D" class="link">RAJU SAW</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1708407284</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NWEzMjQ4MDgtMGIzOC00MDdkLWI0OGItNDU5ZTBhNWNjMjcy/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">73</a></span>
+</td>
+
+
+
+<!-- <td align="center">73</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">1220</td>
+<td align="center">1120.000</td>
+<td align="center">305</td>
+<td align="center">280.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+71&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NWEwNTVjNWQtYjk0NC00NjgxLTlkZDctNDE5ZDBhNWNjMjcy/NQ%3D%3D/MTA%3D" class="link">RAMDULAR SAW</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1708407132</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NWEwNTVjNWQtYjk0NC00NjgxLTlkZDctNDE5ZDBhNWNjMjcy/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">91</a></span>
+</td>
+
+
+
+<!-- <td align="center">91</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">1744</td>
+<td align="center">1648.000</td>
+<td align="center">436</td>
+<td align="center">412.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+72&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGYwMzUyNzYtZTdlMC00MjUxLTg5NzktMTAzNDBhODYwOTJk/NQ%3D%3D/MTA%3D" class="link">RATHU MAHATO</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167884</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGYwMzUyNzYtZTdlMC00MjUxLTg5NzktMTAzNDBhODYwOTJk/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">115</a></span>
+</td>
+
+
+
+<!-- <td align="center">115</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">2496</td>
+<td align="center">2200.000</td>
+<td align="center">624</td>
+<td align="center">550.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+73&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+RITA HEMBRAM</b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167885</td>
+
+
+<td align="center">
+<font color="red">
+0</font>
+</td>
+
+
+
+<!-- <td align="center">0</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">0%</td> -->
+
+<td align="center">0</td>
+<td align="center">0.000</td>
+<td align="center">0</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+74&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGZjMzUwNGItYTlhYy00OGFiLWJkMmItMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" class="link">SAHDEO HANSDA</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167886</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGZjMzUwNGItYTlhYy00OGFiLWJkMmItMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">385</a></span>
+</td>
+
+
+
+<!-- <td align="center">385</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">7932</td>
+<td align="center">7428.000</td>
+<td align="center">1983</td>
+<td align="center">1857.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+75&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGZjMzUwMDMtMzZhYy00ODAzLTg2YWQtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" class="link">SALMA BIBI Tag with Vidya Singh</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167887</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGZjMzUwMDMtMzZhYy00ODAzLTg2YWQtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">312</a></span>
+</td>
+
+
+
+<!-- <td align="center">311</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">6940</td>
+<td align="center">6552.000</td>
+<td align="center">1735</td>
+<td align="center">1638.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+76&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGZjMzQ3MjctNWIwYy00OTk1LTgyODUtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" class="link">SANATAN RAVIDAS</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167888</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGZjMzQ3MjctNWIwYy00OTk1LTgyODUtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">786</a></span>
+</td>
+
+
+
+<!-- <td align="center">785</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">16612</td>
+<td align="center">15128.000</td>
+<td align="center">4153</td>
+<td align="center">3782.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+77&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGYwMzRiOGEtNGVjOC00NTE1LThhMDgtMTAzNDBhODYwOTJk/NQ%3D%3D/MTA%3D" class="link">SANJAY MAHATO</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167889</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGYwMzRiOGEtNGVjOC00NTE1LThhMDgtMTAzNDBhODYwOTJk/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">192</a></span>
+</td>
+
+
+
+<!-- <td align="center">192</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">2920</td>
+<td align="center">2868.000</td>
+<td align="center">730</td>
+<td align="center">717.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+78&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGZjMzY1OTQtMTM5MC00MTRmLTk1ZWItMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" class="link">SANTOSH KUMAR MAHTO</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167890</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGZjMzY1OTQtMTM5MC00MTRmLTk1ZWItMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">455</a></span>
+</td>
+
+
+
+<!-- <td align="center">455</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">9676</td>
+<td align="center">9148.000</td>
+<td align="center">2419</td>
+<td align="center">2281.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+79&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGZjMzY3ZTAtODkwYy00YTIzLThjM2MtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" class="link">SAPAN KR MAHATO </a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167891</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGZjMzY3ZTAtODkwYy00YTIzLThjM2MtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">243</a></span>
+</td>
+
+
+
+<!-- <td align="center">243</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">5264</td>
+<td align="center">4120.000</td>
+<td align="center">1316</td>
+<td align="center">1030.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+80&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGZjMzRlZDQtZjI2MC00OTRiLTg1ZGMtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" class="link">SHAKUNTALA DEVI</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167892</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGZjMzRlZDQtZjI2MC00OTRiLTg1ZGMtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">111</a></span>
+</td>
+
+
+
+<!-- <td align="center">111</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">2900</td>
+<td align="center">2312.000</td>
+<td align="center">725</td>
+<td align="center">578.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+81&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGYwMjFjYmYtNWZjOC00NjYxLWEwYTAtMGUzODBhODYwOTJk/NQ%3D%3D/MTA%3D" class="link">Shankar Mahato</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167893</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGYwMjFjYmYtNWZjOC00NjYxLWEwYTAtMGUzODBhODYwOTJk/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">229</a></span>
+</td>
+
+
+
+<!-- <td align="center">229</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">4560</td>
+<td align="center">4248.000</td>
+<td align="center">1140</td>
+<td align="center">1062.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+82&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NWMxYTMwMTYtYWQxNC00MzllLThmMmEtNGViMjBhNWNjMjcy/NQ%3D%3D/MTA%3D" class="link">SHANKAR SAW</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1708407230</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NWMxYTMwMTYtYWQxNC00MzllLThmMmEtNGViMjBhNWNjMjcy/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">106</a></span>
+</td>
+
+
+
+<!-- <td align="center">106</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">2192</td>
+<td align="center">1892.000</td>
+<td align="center">548</td>
+<td align="center">473.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+83&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NTViYTEzMDEtNDE3NC00ZWQ4LWFmYmEtNGEzM2MwYTgwMTI5/NQ%3D%3D/MTA%3D" class="link">SHANTI DEVI</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167894</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NTViYTEzMDEtNDE3NC00ZWQ4LWFmYmEtNGEzM2MwYTgwMTI5/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">354</a></span>
+</td>
+
+
+
+<!-- <td align="center">354</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">6836</td>
+<td align="center">6612.000</td>
+<td align="center">1709</td>
+<td align="center">1653.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+84&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NWI0MDZkZTQtOTc2NC00MTQ0LWI3NWMtNDE4ZDBhNWNjMjcy/NQ%3D%3D/MTA%3D" class="link">SHIV LAL GUPTA</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1708407192</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NWI0MDZkZTQtOTc2NC00MTQ0LWI3NWMtNDE4ZDBhNWNjMjcy/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">45</a></span>
+</td>
+
+
+
+<!-- <td align="center">45</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">772</td>
+<td align="center">696.000</td>
+<td align="center">193</td>
+<td align="center">174.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+85&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NWFlMDJjMDAtYzIyNC00MjQxLWIwOWUtNDEwZjBhNWNjMjcy/NQ%3D%3D/MTA%3D" class="link">SHRAVAN SAW</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1708407139</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NWFlMDJjMDAtYzIyNC00MjQxLWIwOWUtNDEwZjBhNWNjMjcy/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">103</a></span>
+</td>
+
+
+
+<!-- <td align="center">103</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">1800</td>
+<td align="center">1792.000</td>
+<td align="center">450</td>
+<td align="center">448.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+86&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGZjMzUxY2EtOTE4NC00MDI5LTg5YzQtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" class="link">SITA RAM MAHTO</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167897</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGZjMzUxY2EtOTE4NC00MDI5LTg5YzQtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">644</a></span>
+</td>
+
+
+
+<!-- <td align="center">644</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">11972</td>
+<td align="center">11424.000</td>
+<td align="center">2993</td>
+<td align="center">2852.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+87&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGZjMzRhMTYtZDFlMC00OTYwLWIwYTItMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" class="link">SRI KUNWAR SINGH CHOUDHARY</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167898</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGZjMzRhMTYtZDFlMC00OTYwLWIwYTItMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">283</a></span>
+</td>
+
+
+
+<!-- <td align="center">283</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">6112</td>
+<td align="center">5432.000</td>
+<td align="center">1528</td>
+<td align="center">1358.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+88&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGZjMzU4ZDEtOTdhMC00MTU5LWEzNGMtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" class="link">SUBHAM BACHAT SHG RENUKA DEVI</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167899</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGZjMzU4ZDEtOTdhMC00MTU5LWEzNGMtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">203</a></span>
+</td>
+
+
+
+<!-- <td align="center">203</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">4508</td>
+<td align="center">4376.000</td>
+<td align="center">1127</td>
+<td align="center">1094.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+89&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGZjMzU2NGEtMTUzOC00NzBjLTk1ZTMtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" class="link">SUDHIR CHANDRA MAHATO</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167900</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGZjMzU2NGEtMTUzOC00NzBjLTk1ZTMtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">273</a></span>
+</td>
+
+
+
+<!-- <td align="center">273</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">5284</td>
+<td align="center">5020.000</td>
+<td align="center">1321</td>
+<td align="center">1255.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+90&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGYwMjQyMGEtZTJhOC00MzBlLWE1NmYtMGUzODBhODYwOTJk/NQ%3D%3D/MTA%3D" class="link">SUDHIR KUMAR MAHATO</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167901</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGYwMjQyMGEtZTJhOC00MzBlLWE1NmYtMGUzODBhODYwOTJk/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">295</a></span>
+</td>
+
+
+
+<!-- <td align="center">294</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">8396</td>
+<td align="center">5568.000</td>
+<td align="center">2099</td>
+<td align="center">1379.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+91&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NWI5NjQzYjAtOTZiNC00ZDI1LWI3YjMtNDZmNTBhNWNjMjcy/NQ%3D%3D/MTA%3D" class="link">SUKRI MAHATAIN</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167878</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NWI5NjQzYjAtOTZiNC00ZDI1LWI3YjMtNDZmNTBhNWNjMjcy/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">129</a></span>
+</td>
+
+
+
+<!-- <td align="center">129</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">2476</td>
+<td align="center">2336.000</td>
+<td align="center">619</td>
+<td align="center">584.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+92&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGYwMjQzMDItNzljOC00YTdjLThiNTctMGUzODBhODYwOTJk/NQ%3D%3D/MTA%3D" class="link">SULOCHANA DEVI</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167902</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGYwMjQzMDItNzljOC00YTdjLThiNTctMGUzODBhODYwOTJk/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">198</a></span>
+</td>
+
+
+
+<!-- <td align="center">198</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">4156</td>
+<td align="center">3656.000</td>
+<td align="center">1039</td>
+<td align="center">914.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+93&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGZjMzVkNjQtNDQ4OC00NTA4LTljZWEtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" class="link">SUNITA DE VI jagdish</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167903</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGZjMzVkNjQtNDQ4OC00NTA4LTljZWEtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">188</a></span>
+</td>
+
+
+
+<!-- <td align="center">188</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">3776</td>
+<td align="center">3744.000</td>
+<td align="center">944</td>
+<td align="center">936.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+94&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGYwMjFiM2UtOGViOC00NTI1LTk2Y2QtMGUzODBhODYwOTJk/NQ%3D%3D/MTA%3D" class="link">SUNITA DEVEE</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167895</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGYwMjFiM2UtOGViOC00NTI1LTk2Y2QtMGUzODBhODYwOTJk/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">126</a></span>
+</td>
+
+
+
+<!-- <td align="center">126</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">3788</td>
+<td align="center">2512.000</td>
+<td align="center">947</td>
+<td align="center">628.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+95&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGZjMzYzMDMtYjA2NC00ODVkLWJjY2YtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" class="link">SUNITA DEVI sindurpur</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167904</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGZjMzYzMDMtYjA2NC00ODVkLWJjY2YtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">120</a></span>
+</td>
+
+
+
+<!-- <td align="center">120</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">2208</td>
+<td align="center">2104.000</td>
+<td align="center">552</td>
+<td align="center">526.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+96&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGZjMzRlOTUtM2Y2NC00ZjgyLTg1ODItMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" class="link">SURESH BURNWAL</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167905</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGZjMzRlOTUtM2Y2NC00ZjgyLTg1ODItMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">392</a></span>
+</td>
+
+
+
+<!-- <td align="center">392</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">9112</td>
+<td align="center">8388.000</td>
+<td align="center">2278</td>
+<td align="center">2097.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+97&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGZjMzYxMWEtOWE4NC00OGM1LTkwMzktMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" class="link">SURESH CHANDRA MAHATO</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167906</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGZjMzYxMWEtOWE4NC00OGM1LTkwMzktMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">333</a></span>
+</td>
+
+
+
+<!-- <td align="center">333</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">6104</td>
+<td align="center">5740.000</td>
+<td align="center">1526</td>
+<td align="center">1436.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+98&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGZjMzQ5MDAtYTBiMC00NWIyLWE4ODYtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" class="link">THANDI DEVI</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167907</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGZjMzQ5MDAtYTBiMC00NWIyLWE4ODYtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">131</a></span>
+</td>
+
+
+
+<!-- <td align="center">131</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">2368</td>
+<td align="center">2208.000</td>
+<td align="center">592</td>
+<td align="center">552.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+<tr role="row">
+
+<td align="center" width="60px">
+99&nbsp; 
+</td>
+
+<td class="main" style="font-size:10px;" width="100px"><b>
+
+<a href="/district-monthly-reports/transaction/NGZjMzY3NTMtM2RmYy00ZTUwLWI2YjQtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" class="link">URMILA DEVI JAY MAHADEV SHG</a></b>
+</td>
+
+
+<td align="center">
+<font color="green">
+Online</font>
+</td>
+<td align="center">
+Mapped</td>
+
+
+<td align="center">
+1608167908</td>
+
+
+<td align="center">
+<span class="distnamelink">
+<a href="/district-monthly-reports/transaction/NGZjMzY3NTMtM2RmYy00ZTUwLWI2YjQtMGFiMGMwYTgwMTAx/NQ%3D%3D/MTA%3D" style="background-color:inherit; border:hidden;" class="link">298</a></span>
+</td>
+
+
+
+<!-- <td align="center">295</td> -->
+
+<td align="center">0</td>
+
+<!-- <td align="center">100%</td> -->
+
+<td align="center">5448</td>
+<td align="center">5192.000</td>
+<td align="center">1362</td>
+<td align="center">1293.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+<td align="center">0.000</td>
+
+</tr>
+
+</tbody>
+
+<tbody aria-live="polite" aria-relevant="all"><tr id="totalrow" style="background-color:#FFFFFF; font-size:12px; font-weight:bold; color:#575757; border:2px groove #666666; margin-left:30px;" role="row">
+<td colspan="5" class="main">Total</td>
+<td align="center">24597</td>
+<!-- <td align="center">24557</td> -->
+<td align="center">0</td>
+
+<!-- <td align="center">------&nbsp;</td> -->
+
+<td align="center">501420</td>
+<td align="center">460883.96</td>
+<td align="center">125355</td>
+<td align="center">115173.99</td>
+<td align="center">1</td>
+<td align="center">0</td>
+<td align="center">0</td>
+
+<!--td align="center"></td>
+<td align="center"></td>
+<td align="center">NAN%</td-->
+</tr>
+</tbody></table></body></html>
